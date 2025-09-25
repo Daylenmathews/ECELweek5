@@ -7,7 +7,7 @@ module circuit_a(
 );
 
     // Enter logic equation here
-    assign Y=(!A&!D);
+    assign Y=(!A&D);
     
 
 endmodule
